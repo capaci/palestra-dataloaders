@@ -1,0 +1,71 @@
+# slides 9 a 11
+type Produto {
+  nome: String!
+  descricao: String
+}
+
+type Categoria {
+  nome: String!
+  produtos: [Produto]
+}
+
+
+#############
+
+# slide
+schema {
+  query: Query
+}
+
+type Query {
+  categorias: [Categoria]
+  produtos: [Produtos]
+}
+
+
+#############
+
+# slide 12
+query {
+  categorias {
+    id
+    nome
+    produtos {
+      id
+      nome
+      descricao
+    }
+  }
+}
+
+query {
+  produtos {
+    id
+    nome
+    categoria {
+      id
+      nome
+    }
+  }
+}
+
+#############
+
+# slide 13
+mutation CriarProduto {
+  criarProduto(
+    nome: "Produto",
+    descricao: "Novo Produto",
+    categoria: 1
+  ) {
+    id
+    nome
+    descricao
+    categoria {
+      id
+      nome
+    }
+  }
+}
+
+

@@ -1,0 +1,68 @@
+[
+    {
+        "model": "produto.categoria",
+        "pk": 1,
+        "fields": {
+            "nome": "Games"
+        }
+    },
+    {
+        "model": "produto.categoria",
+        "pk": 2,
+        "fields": {
+            "nome": "Livros"
+        }
+    },
+    {
+        "model": "produto.categoria",
+        "pk": 3,
+        "fields": {
+            "nome": "Pet Shop"
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 1,
+        "fields": {
+            "nome": "Python Fluente: Programação Clara, Concisa e Eficaz",
+            "descricao": "A simplicidade de Python permite que você se torne produtivo rapidamente, porém isso muitas vezes significa que você não estará usando tudo que ela tem a oferecer. Com este guia prático, você aprenderá a escrever um código Python eficiente e idiomático aproveitando seus melhores recursos – alguns deles, pouco conhecidos. O autor Luciano Ramalho apresenta os recursos essenciais da linguagem e bibliotecas de Python mostrando como você pode tornar o seu código mais conciso, mais rápido e mais legível ao mesmo tempo. Muitos programadores experientes tentam dobrar o Python para que ele se enquadre em padrões aprendidos com outras linguagens e jamais descobrem os recursos do Python que estão além de sua experiência. Com este livro, esses programadores Python aprenderão a ser totalmente proficientes em Python 3.",
+            "categoria": 2
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 2,
+        "fields": {
+            "nome": "1984",
+            "descricao": "Publicada originalmente em 1949, a distopia futurista 1984 é um dos romances mais influentes do século XX, um inquestionável clássico moderno. Lançada poucos meses antes da morte do autor, é uma obra magistral que ainda se impõe como uma poderosa reflexão ficcional sobre a essência nefasta de qualquer forma de poder totalitário.",
+            "categoria": 2
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 3,
+        "fields": {
+            "nome": "Tudo o que você precisou desaprender para virar um idiota",
+            "descricao": "Sabia que enquanto você lê este texto comunistas eurasianos tentam dominar o mundo com a ajuda de organizações metacapitalistas secretas e sacerdotes da Religião Biônica Mundial, criada para exterminar a moral judaico-cristã da face da Terra, que é plana? Não, essa não é a sinopse do próximo filme do James Bond. É uma doutrina tida como filosofia por personalidades importantes da política e da cultura brasileiras. Antes marginalizada, essa ideologia começou a pautar posicionamentos e ações do governo, além de dominar as conversas em jantares de família. Neste livro, você desvendará as 24 principais teorias conspiratórias que estão tomando conta do debate público e de discussões privadas para ajudá-lo a entender a profundidade do buraco civilizatório em que o Brasil se enfiou. Com a mesma clareza e didática dos seus mais de 300 vídeos, que conquistaram mais de 580 mil seguidores no YouTube, o Meteoro Brasil explica a ficção e a realidade por trás de kit gay, marxismo cultural, gramscismo, Lei Rouanet, mudança climática, Paulo Freire, globalismo, vacinas e muito mais!",
+            "categoria": 2
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 4,
+        "fields": {
+            "nome": "Arranhador para gatos",
+            "descricao": "O arranhador perfeito para o seu gatinho.",
+            "categoria": 3
+        }
+    },
+    {
+        "model": "produto.produto",
+        "pk": 5,
+        "fields": {
+            "nome": "Varinha para gatos",
+            "descricao": "A varinha que, mesmo sendo perfeita, o seu gato irá trocar por uma bolinha de papel qualquer.",
+            "categoria": 3
+        }
+    }
+]
