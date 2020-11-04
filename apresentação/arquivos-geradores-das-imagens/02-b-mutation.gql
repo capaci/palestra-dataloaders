@@ -1,0 +1,15 @@
+mutation CriarProduto {
+  criarProduto(
+    nome: "Produto",
+    descricao: "Novo Produto",
+    categoria: 1
+  ) {
+    id
+    nome
+    descricao
+    categoria {
+      id
+      nome
+    }
+  }
+}

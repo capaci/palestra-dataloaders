@@ -1,0 +1,8 @@
+schema {
+    query: Query
+}
+
+type Query {
+    categorias: [Categoria]
+    produtos: [Produtos]
+}

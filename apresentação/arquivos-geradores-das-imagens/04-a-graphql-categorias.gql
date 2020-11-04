@@ -1,0 +1,10 @@
+query TodasAsCategorias {
+  categorias {
+    id
+    nome
+    produtos {
+      id
+      nome
+    }
+  }
+}

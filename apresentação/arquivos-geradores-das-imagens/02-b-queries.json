@@ -1,0 +1,40 @@
+{
+    "data": {
+        "categorias": [{
+                "id": "1",
+                "nome": "Games",
+                "produtos": []
+            },
+            {
+                "id": "2",
+                "nome": "Livros",
+                "produtos": [{
+                        "id": "1",
+                        "nome": "Python Fluente: Programação Clara, Concisa e Eficaz"
+                    },
+                    {
+                        "id": "2",
+                        "nome": "1984"
+                    },
+                    {
+                        "id": "3",
+                        "nome": "Tudo o que você precisou desaprender para virar um idiota"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "nome": "Pet Shop",
+                "produtos": [{
+                        "id": "4",
+                        "nome": "Arranhador para gatos"
+                    },
+                    {
+                        "id": "5",
+                        "nome": "Varinha para gatos"
+                    }
+                ]
+            }
+        ]
+    }
+}

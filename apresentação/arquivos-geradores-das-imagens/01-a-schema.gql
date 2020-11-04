@@ -1,0 +1,12 @@
+type Produto {
+  id: ID! # ponto de exclamação indica que não pode ser nulo
+  nome: String!
+  descricao: String
+  categoria: Categoria!
+}
+
+type Categoria {
+  id: ID!
+  nome: String!
+  produtos: [Produto]  # lista de produtos da categoria
+}
