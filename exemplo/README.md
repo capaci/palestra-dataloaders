@@ -44,4 +44,7 @@ python manage.py runserver
 ## Testando
 
 - acessar [interface graphiql](localhost:8000/graphql) para rodar as queries
+
+    - você pode visualizar as queries disponíveis navegando pela aba "Docs" na interface GraphiQL. Mas se preferir, pode visualizá-las no arquivo [queries.gql](./queries.gql)
+
 - acessar [interface do silk](localhost:8000/silk) para verificar o que foi rodado no backend a cada requisição

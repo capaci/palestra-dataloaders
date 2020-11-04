@@ -1,0 +1,78 @@
+
+query Produtos {
+  produtos {
+    id
+    nome
+    categoria {
+      id
+      nome
+
+    }
+  }
+}
+
+query ProdutosComSelectRelated {
+  produtosComSelectRelated {
+    id
+    nome
+    categoria {
+      id
+      nome
+
+    }
+  }
+}
+
+query ProdutosComDataloader {
+  produtosComDataloader {
+    id
+    nome
+    categoria {
+      id
+      nome
+
+    }
+  }
+}
+
+
+query Categorias {
+  categorias {
+    id
+    nome
+    produtos {
+      id
+      nome
+      descricao
+    }
+  }
+}
+
+query CategoriasComPrefetchRelated {
+  categoriasComPrefetchRelated {
+    id
+    nome
+    produtos {
+      id
+      nome
+      descricao
+    }
+  }
+}
+
+
+
+query CategoriasComDataLoader {
+  categoriasComDataloader {
+    id
+    nome
+    produtos {
+      id
+      nome
+      descricao
+    }
+  }
+}
+
+
+
